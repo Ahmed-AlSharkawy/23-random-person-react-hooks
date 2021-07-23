@@ -65,6 +65,9 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+img {
+  filter: blur(10px);
+}
 ul {
   list-style-type: none;
 }
@@ -207,7 +210,8 @@ p {
 }
 .user-value {
   color: var(--clr-grey-1);
-  font-size: 28px;
+  font-size: 22px;
+  font-weight: 500;
 }
 .values-list {
   display: grid;
